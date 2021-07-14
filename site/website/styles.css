@@ -10,7 +10,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100vh;
-	width: 100vw;
+	width: 100%;
 }
 
 .navbar-brand {
@@ -79,13 +79,45 @@ header .title div h1{
 	color: #fff;
 }
 
-#profile {
+#profile h1{
 	box-sizing: border-box;
-	width: 300px;
-	background-color: transparent;
-	margin: 40px auto 40px;
+	margin: 40px 0px 30px;
+	float: left;
+	width: 60%;
+	padding: 0 100px;
 }
 
+#profile p{
+	box-sizing: border-box;
+	float: left;
+	width: 100%;
+	text-align: justify;
+	padding: 0 100px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  #profile h1 {
+    width: 80%;
+    padding: 0 30px;
+  }
+  #profile p {
+    width: 100%;
+    padding: 0 30px;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  #profile h1 {
+    width: 100%;
+    padding: 0 15px;
+  }
+  #profile p {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
 #myJourney {
 	box-sizing: border-box;
 	width: 300px;
