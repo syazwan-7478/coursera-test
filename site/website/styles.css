@@ -43,7 +43,6 @@ nav .navbar-nav ul li a:hover {
 
 header .title {
 	text-align: center;
-	float: center;
 	margin-top: 250px;
 }
 
@@ -97,6 +96,21 @@ header .title div h1{
 
 @media only screen and (max-width:800px) {
   /* For tablets: */
+  header .title {
+  	text-align: center;
+  	margin-top: 250px;
+  }
+
+  header .title h1 span {
+  	position: relative;
+  	color: #fff;
+  }
+
+  header .title div h1 {
+  	color: #D9A401;
+  	font-size: 350%;
+  }
+
   #profile h1 {
     width: 80%;
     padding: 0 30px;
@@ -109,6 +123,21 @@ header .title div h1{
 
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
+  header .title {
+  	text-align: center;
+  	margin-top: 180px;
+  }
+
+  header .title h1 span {
+  	position: relative;
+  	color: #fff;
+  }
+
+  header .title div h1 {
+  	color: #D9A401;
+  	font-size: 300%;
+  }
+
   #profile h1 {
     width: 100%;
     padding: 0 15px;
