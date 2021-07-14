@@ -6,7 +6,7 @@
 #header {
 	background-image: url(img/john-towner-JgOeRuGD_Y4-unsplash-min.jpg);
 	background-attachment: fixed;
-	float: center;
+	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100vh;
